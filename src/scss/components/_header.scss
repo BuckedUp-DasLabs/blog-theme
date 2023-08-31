@@ -75,7 +75,7 @@
         width: 1rem;
         transition: 0.3s;
       }
-      & > li {
+      & > li:not(.dropdown) {
         position: relative;
         padding: 1.8125rem 0;
         & > a,
@@ -311,10 +311,12 @@
       @include scrollbar();
       ul {
         li:not(:last-child) {
-          padding-bottom: 1rem;
+          &:not(.dropdown){
+            padding-bottom: 1rem;
+          }
         }
       }
-      .has-dropdown > li {
+      .has-dropdown > li:not(.dropdown) {
         width: 100%;
         padding: 0;
         padding-bottom: 1rem;
