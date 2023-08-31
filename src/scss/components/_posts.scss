@@ -1,0 +1,17 @@
+.posts{
+  .load-more{
+    text-align: center;
+    &,span,svg{
+      display: block;
+      margin:auto;
+    }
+    svg{
+      transition: 0.3s;
+    }
+    &:hover,&:focus{
+      svg{
+        transform: translateY(5px);
+      }
+    }
+  }
+}

@@ -25,6 +25,9 @@
   background-color: white;
   border-bottom: 0.0625rem solid #d8d8d8;
   text-transform: uppercase;
+  & + main{
+    margin-top:4.6875rem
+  }
   &__logo {
     width: 100%;
     max-width: 11.1875rem;
@@ -357,7 +360,4 @@
       }
     }
   }
-}
-body {
-  background-color: rgb(62, 62, 80);
 }
