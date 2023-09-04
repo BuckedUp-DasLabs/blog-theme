@@ -1,7 +1,10 @@
 .posts{
   .load-more{
     text-align: center;
-    &,span,svg{
+    display: block;
+    margin:1.5rem auto 2rem auto;
+    font-weight: 600;
+    span,svg{
       display: block;
       margin:auto;
     }
