@@ -274,6 +274,12 @@
   }
   @media (max-width: 1282px) {
     padding: 0 1rem;
+    & + main{
+      margin-top:3.375rem;
+    }
+    &__logo{
+      flex-shrink: 0;
+    }
     &__mobile-button{
       display: flex;
     }

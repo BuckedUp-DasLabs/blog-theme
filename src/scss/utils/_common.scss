@@ -1,5 +1,6 @@
 .container{
-  max-width: 54.375rem;
+  max-width: 56.375rem;
+  // padding:0 1rem;
   margin:auto;
 }
 
@@ -9,4 +10,8 @@
   font-weight: 500;
   font-size: 14px;
   padding:1.5rem 0 0.5rem 0;
+  @media(max-width:900px){
+    padding: 1rem 0 0.3rem 0;
+    font-size: 12px;
+  }
 }
