@@ -47,23 +47,7 @@
       span {
         color: black;
         font-weight: 600;
-        position: relative;
-        &:after {
-          content: "";
-          width: 0;
-          height: 0.0625rem;
-          background-color: black;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          transition: 0.3s;
-        }
-        &:hover,
-        &:focus {
-          &:after {
-            width: 100%;
-          }
-        }
+        @include underline(black);
       }
     }
     &:last-of-type {

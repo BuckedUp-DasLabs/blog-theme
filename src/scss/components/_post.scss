@@ -1,0 +1,45 @@
+.post {
+  padding-top: 2rem;
+  &__head {
+    text-align: center;
+    a:hover{
+      opacity:.6 ;
+    }
+    &__category {
+      display: block;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    h1{
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom:1.2rem;
+    }
+    &__author {
+      font-size: 1.3rem;
+      margin-bottom:1rem;
+    }
+    &__socials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom:2rem;
+      gap:1rem;
+      a {
+        svg {
+          width: 1.2rem;
+        }
+      }
+    }
+    &__img {
+      width: 100%;
+      img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 660px;
+      }
+    }
+  }
+}
