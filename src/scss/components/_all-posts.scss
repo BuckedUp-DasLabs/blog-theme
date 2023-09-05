@@ -1,6 +1,6 @@
 .all-posts{
   padding-top:1.5rem;
-  border-top:1px solid #c5c4c3;
+  border-top:0.0625rem solid #c5c4c3;
   .category-title{
     margin-bottom:1rem;
   }
@@ -18,10 +18,10 @@
       padding-top:0;
     }
     @media(min-width:832px){
-      border-bottom: 1px solid #c5c4c3 !important;
+      border-bottom: 0.0625rem solid #c5c4c3 !important;
       &:nth-child(even){
         border-right: none;
-        padding: 30px 0 30px 30px;
+        padding: 1.875rem 0 1.875rem 1.875rem;
         @media (max-width: 1219px){
           padding: 1rem 0 1rem 1rem;
         }

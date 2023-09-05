@@ -1,5 +1,5 @@
 .banner {
-  border-bottom: 1px solid #c5c4c3;
+  border-bottom: 0.0625rem solid #c5c4c3;
   padding-bottom:2rem;
   padding-bottom:2rem;
   img {
@@ -26,13 +26,13 @@
     }
     .swiper{
       background-color: white;
-      max-width: 438px;
+      max-width: 27.375rem;
       margin:0;
     }
   }
   &__title-container {
     text-align: center;
-    padding:1rem 50px;
+    padding:1rem 3.125rem;
     a {
       display: block;
       &:hover,&:focus{
