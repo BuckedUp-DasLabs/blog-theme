@@ -1,0 +1,12 @@
+.single-post{
+  .post-card{
+    border-right: none;
+    border-top:1px solid #c5c4c3;
+    &__img,&__content{
+      width: 100%;
+    }
+    &__img{
+      aspect-ratio: 1 / 1;
+    }
+  }
+}

@@ -115,3 +115,22 @@
     font-size: 1.5rem;
   }
 }
+
+.load-more{
+  text-align: center;
+  display: block;
+  margin:1.5rem auto 2rem auto;
+  font-weight: 600;
+  span,svg{
+    display: block;
+    margin:auto;
+  }
+  svg{
+    transition: 0.3s;
+  }
+  &:hover,&:focus{
+    svg{
+      transform: translateY(5px);
+    }
+  }
+}
