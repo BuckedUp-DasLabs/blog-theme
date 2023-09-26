@@ -1,0 +1,35 @@
+@import "../../styles/imports";
+
+.banner {
+  border-bottom: 0.0625rem solid #c5c4c3;
+  padding-bottom:2rem;
+  padding-bottom:2rem;
+  img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 758 / 624;
+  }
+  &__swiper{
+    .swiper-slide{
+      @include imageHover();
+    }
+  }
+  &__textSwiperContainer{
+    margin-top:-2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    @media(max-width:559px){
+      gap:0.5rem;
+    }
+    .swiperNext,.swiperPrev{
+      flex-shrink: 0;
+    }
+    :global(.swiper){
+      background-color: white;
+      max-width: 27.375rem;
+      margin:0;
+    }
+  }
+}

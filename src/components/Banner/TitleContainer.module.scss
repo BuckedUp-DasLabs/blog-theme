@@ -1,0 +1,14 @@
+.titleContainer {
+  text-align: center;
+  padding: 1rem 3.125rem;
+  a {
+    display: block;
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+  }
+  .categoryTitle {
+    margin-bottom: 1rem;
+  }
+}

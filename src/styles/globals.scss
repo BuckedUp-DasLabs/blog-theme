@@ -1,0 +1,79 @@
+@import "./reset";
+@import "./imports";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,*{
+  font-family: Poppins;
+}
+
+.categoryTitle{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+  &.padding{
+    padding:1.5rem 0 0.5rem 0;
+  }
+  &.center{
+    text-align: center;
+  }
+  @media(max-width:76.1875rem){
+    &.padding{
+      padding: 1rem 0 0.3rem 0;
+    }
+    font-size: 0.75rem;
+  }
+}
+
+.edit {
+  p,
+  a,
+  li {
+    font-size: 1.0625rem;
+    color: #323132;
+    letter-spacing: 0.0806rem;
+    line-height: 1.5;
+  }
+  p {
+    margin: 1rem 0;
+  }
+  img{
+    width: 100%;
+    object-fit: scale-down;
+  }
+  a {
+    color: #f00;
+    @include underline(#f00);
+  }
+  h3 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+  li {
+    position: relative;
+    padding-left: 1.3rem;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0.4375rem;
+      left: 0;
+      height: 0.4375rem;
+      width: 0.4375rem;
+      border-radius: 50%;
+      background-color: #f00;
+    }
+  }
+}
+.p {
+  font-size: 1.0625rem;
+  color: #323132;
+  letter-spacing: 0.0806rem;
+  line-height: 2rem;
+}
+.h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1.3125rem;
+  @media (max-width: 985px) {
+    font-size: 1.5rem;
+  }
+}
